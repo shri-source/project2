@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 150px;
+            margin-left: 50px;
+            margin-top: 5px;
+        }
+        body{
+            height: 3000px;
+        }
+        a{
+         padding: 15px;
+         margin-top: 0px;
+         text-decoration: none;
+         color: black;
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        a:hover{
+            background-color: orange;
+            border-radius: 0px 15px 0px 15px ;
+            padding: 10px;
+            
+        }
+        button{
+            margin-left: 25px;
+            padding: 8px 25px;
+            border-radius: 20px;
+            background-color: #162d47;
+            color: white;
+            font-size: 13px;
+        }
+        section{
+            background-image: url(data:image/jpeg;base64,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);
+            margin-top: 20px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 400px;
+        }
+        h1{
+            margin-left: 20px;
+            padding-top: 50px;
+            color: #b54040;
+            font-size: 50px;
+        }
+        h2{
+        color: aliceblue;
+        font-size: 25px;
+        margin-left: 20px;
+        }
+        section input{
+            padding: 13px 38px;
+            border-radius: 20px;
+            margin: 20px;
+            background: none;
+            color: aliceblue;
+            border-color: aliceblue;
+            font-size: 18px;
+        }
+        main img{
+        height: 400px;
+        width: 600px;
+        margin-right: 50px;
+        }
+        div{
+            display: flex;
+            margin-top: 50px;
+        }
+        aside{
+            margin-left: 10px;
+        }
+        aside h3{
+            font-size: 25px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        section0{
+            display: flex;
+            margin-top: 70px;
+            background-color: #eaf6f8;
+            padding: 20px;
+            height: 120px;
+            text-align: center;
+            padding-top: 80px;
+        }
+        section0 p{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        section1 a{
+            font-size: 50px;
+        }
+        section2 a{
+            font-size: 50px;
+        }
+        section3 a{
+            font-size: 50px;
+        }
+        section4 a{
+            font-size: 50px;
+        }
+        section1{
+            margin-left: 100px;
+        }
+        section2{
+            margin-left: 180px;
+        }
+        section3{
+            margin-left: 180px;
+        }
+        section4{
+            margin-left: 180px;
+        }
+        footer{
+            margin-top: 100px;
+            background-color: #160c21;
+            height: 400px;
+            column-gap: 60px;
+            text-align: center;
+        }
+        section5{
+            display: flex;
+            color: aliceblue;
+        }
+        ul li{   
+            list-style-type: none;
+            padding: 6px;
+        }
+        section7 ul{
+            margin-top: 40px;
+        }
+        section8 ul{
+            margin-top: 40px;
+        }
+        section9 ul{
+            margin-top: 40px;
+        }
+        section10 p{
+            color: aliceblue;
+        }
+        #map {
+            margin-left: 200px;
+        }
+        .map2{
+            background-color: antiquewhite;
+        }
+        .map2 input{
+            height: 20px;
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <head>
+        <nav>
+            <img src="https://growmoretechnoline.com/assets/img/grow1.png" alt="gromore image">
+            <a style="margin-left: 490px;" href="">Home</a>
+            <a href="">About</a>
+            <a href="#map">Contact</a>
+            <a href="">Courses</a>
+
+            <button>
+                Get Started
+            </button>
+        </nav>
+        <section>
+        <h1>Learning Today,
+            <br>
+            Leading Tomorrow
+        </h1>
+        <h2>Empowering Tomorrow's Innovators: Master Full Stack Development with Our Comprehensive Courses!</h2>
+        <input type="button" value="Get Started">
+    </section>
+    <div>
+    <aside>
+        <h3>Empower Your Future: Unlocking Success with Cutting-edge IT Training Growmore Technoline India Pvt Ltd.</h3>
+        <p><i>Join us for a transformative journey into coding excellence, mastering the full stack. Unleash your potential with our concise and comprehensive Full Stack Development program.</i></p>     <p> Comprehensive Curriculum: Covering front-end and back-end technologies, databases, and frameworks to ensure a holistic understanding of full stack development.</p>
+        <p>Industry professionals with extensive experience, offering insights into current best practices and emerging trends in full stack development.</p>
+        <p> Job placement assistance, resume workshops, and interview preparation to help students transition seamlessly into full stack development roles.</p>
+    </aside>
+    <main>
+        <img src="https://growmoretechnoline.com/assets/img/about1.jpg" alt="">
+    </main>
+</div>
+<hr>
+<div class="map1">
+<div class="map2">
+    <input type="text" placeholder="name">
+    <br>
+    <br>
+    <input type="text" placeholder="email">
+    <br>
+    <input type="button" value="Submit">
+</div>
+<div id="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7569.2382288490135!2d73.826095!3d18.455595!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc295c1e1b82c9d%3A0xbd383e5b30f8ded8!2sGrowmore%20Technoline%20India%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1714110747621!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+<hr>
+<section0>
+<section1>
+    <a href=""><b>85</b></a>
+    <p>Alumini</p>
+</section1>
+<section2>
+    <a href="">3</a>
+    <p>Courses</p>
+</section2>
+<section3>
+    <a href="">10</a>
+    <p>Live project</p>
+</section3>
+<section4>
+    <a href="">70</a>
+    <p>Alumini Scuess</p>
+</section4>
+</section0>
+<footer>
+    <section5>
+        <section6>
+            <ul>
+                <li style="font-size: 30px;"><b>Growmore technoline Pvt.</b></li>
+            </ul>
+        </section6>
+        <section7>
+            <ul>
+                <li style="margin-left: 38px;"><b>Uselful links</b></li>
+                <li style="color: #878181;">Home</li>
+                <li  style="color: #878181;">About</li>
+                <li  style="color: #878181;">Service</li>
+                <li style="color: #878181; margin-left: 49px;">Terms of service</li>
+                <li  style="color: #878181;">Privacy</li>
+            </ul>
+        </section7>
+        <section8>
+            <ul>
+                <li><b>Our Services</b></li>
+                <li style="color: #878181; margin-left: 40px;">Web development</li>
+                <li style="color: #878181;">Web design</li>
+                <li style="color: #878181;">Ui/ux Design</li>
+                <li style="color: #878181; margin-left: 50px;">Mobile Application</li>
+            </ul>
+        </section8>
+        <section9>
+            <ul>
+                <li style="margin-left: 50px;"><b>Growmore technoline pvt Ltd</b></li>
+                <li>Survey no 48/28</li>
+                <li>Near pratik Hostel,</li>
+                <li>Manaji nagar Narhe</li>
+                <li>Phone +9370654321</li>
+                <li style=" margin-left: 50px;">Email : Growmore@gmail.com</li>
+            </ul>
+        </section9>
+    </section5>
+    <section10>
+        <p style="margin-top: 100px;"> @Copyright <b>Growmore Technoline Pvt. Ltd.</b>  All Rights Reserved</p>
+        <p>Boostrap made</p>
+    </section10>
+</footer>
+    </header>
+</body>
+</html>

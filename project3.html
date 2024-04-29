@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #eaf0f1;
+            height: 1500px;
+        }
+        .nav{
+            display: flex;
+        }
+        .nav a{
+            margin-top: 29px;
+            margin-left: 30px;
+            font-weight: bold;
+            font-size: 17px;
+            text-decoration: none;
+            color: black;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .nav a:hover{
+            background-color: orange;
+            border-radius: 0px 12px 0px 12px;
+            padding: 10px;
+        }
+        .nav h1{
+            margin-left: 50px;
+            color: #9517bf;
+        }
+        section{
+            background-color: #e4e8e7;
+            height: 300px;
+        }
+        section h1{
+            padding: 0;
+            margin: 0;
+            font-size: 60px;
+        }
+        section p{
+            padding: 0;
+            margin: 0;
+            font-size: 19px;
+        }
+        section{
+            padding: 100px;
+            display: flex;
+        }
+        section span{
+            color: #941acd;
+        }
+        .img img{
+            width: 280px;
+            margin-left: 190px;
+            box-shadow: 8px 7px 13px black;
+        }
+        .side{
+            margin-top: 100px;
+        }
+        .card1{
+            background-color: aliceblue;
+            width: 300px;
+            height: 200px;
+            padding: 20px;
+            border-radius: 40px;
+            box-shadow: 8px 7px 13px black;
+        }
+        .card{
+            margin: 30px;
+            display: flex;
+            column-gap: 50px;
+        }
+        .contact{
+            margin-left: 400px;
+            margin-top: 50px;
+        }
+        .cont{
+            background-color: #cbe5dd;
+            padding: 50px;
+            width: 300px;
+            height: 400px;
+            border-radius: 50px;
+            box-shadow: 8px 7px 13px black;
+        }
+        .cont input{
+            padding: 8px;
+            width: 250px;
+            border-radius: 0px 20px 0px 20px ;
+            background-color: orange;
+        }
+        .cont input::placeholder{
+            color: black;
+        }
+        .cont h1{
+            margin-left: 40px;
+            color: #941acd;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav">
+        <h1>My Portfolio</h1>
+        <a style="margin-left: 600px;" href="">Home</a>
+        <a href="">About</a>
+        <a href="">Project</a>
+        <a href="">Contact Us</a>
+    </div>
+</div>
+<section>
+    <div class="side">
+    <p style="margin-left: 12px;">Hey I'm <span>Shriram Mithe,</span></p>
+    <h1 style="padding: 10px;">Frontend <span> Developer</span></h1>
+    <p style="margin-left: 10px;">I am web developer passionate about <span style="color: orangered;"> Html, Css, Javascript </span> I love <br> responsive and User-friendly website</p>
+</div>
+<div class="img">
+    <img src="https://media.licdn.com/dms/image/C4E03AQEwbKI-ypOcIw/profile-displayphoto-shrink_800_800/0/1655491713461?e=2147483647&v=beta&t=0U6gq9vF66U0H-iUzm6tpgbGgeUO1vcD3IsQEFzCQYc" alt="">
+</div>
+</section>
+<hr>
+<div class="card">
+    <div class="card1">
+        <h3 style="margin-left: 15px;">Project1</h3>
+        <h1 style=" margin-left: 25px;"><span style="color: #941acd;"> Amazone</span> Clone</h1>
+        <p style="margin-left: 25px;">I have complete this project Using html,Css,Jvascript</p>
+    </div>
+    <div class="card1">
+        <h3 style="margin-left: 15px;">Project2</h3>
+        <h1 style=" margin-left: 25px;"><span style="color: #941acd;"> NetFlix</span> Clone</h1>
+        <p style="margin-left: 25px;">I have complete this project Using html,Css,Jvascript</p>
+    </div>
+    <div class="card1">
+        <h3 style="margin-left: 15px;">Project3</h3>
+        <h1 style=" margin-left: 25px;"><span style="color: #941acd;"> E-commence</span> Clone</h1>
+        <p style="margin-left: 25px;">I have complete this project Using html,Css,Jvascript</p>
+    </div>
+</div>
+<br>
+<hr>
+<div class="contact">
+    <div class="cont">
+        <h1>Contact Us</h1>
+        <br>
+        <br>
+        <input type="text" placeholder="Name">
+        <br>
+        <br>
+        <input type="email" placeholder="Email">
+        <br>
+        <br>
+        <textarea name="" id="" cols="35" rows="6">Message</textarea>
+        <br>
+        <br>
+        <input style="margin-left: 70px; width: 100px; background-color: #00c8ff;" type="button" value="Send">
+    </div>
+</div>
+</body>
+</html>

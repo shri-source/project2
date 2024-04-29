@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 2000px;
+            background-color: #070d10;
+        }
+        section{
+            background-image: url(https://static.vecteezy.com/system/resources/thumbnails/023/010/450/small/the-cup-of-latte-coffee-with-heart-shaped-latte-art-and-ai-generated-free-photo.jpg);
+            height: 550px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin-top: 50px;
+        }
+        .nav{
+            margin-left: 500px;
+            margin-top: 35px;
+        }
+        .nav a{
+            margin-left: 20px;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 17px;
+            text-decoration: none;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .navbar{
+            display: flex;
+            height: 80px;
+        }
+        .nav a:hover{
+            background-color: orange;
+            padding: 10px;
+            border-radius: 0px 20px 0px 20px;
+            
+        }
+        .logo img{
+            width: 100px;
+            border-radius: 50%;
+            margin-left: 50px;
+        }
+        .button button{
+            padding: 8px 25px;
+            margin-left: 40px;
+            margin-top: 30px;
+            border-radius: 10px;
+            background-color: #106f92;
+            border: none;
+            font-size: 16px;
+
+        }
+        .button button:hover{
+            color: aliceblue;
+        }
+        .card img{
+        width: 90px;
+        border-radius: 60px;
+        margin-left: 900px;
+        margin-top: 100px;
+        background-color: red;
+        }
+        .card h1{
+            padding: 0px;
+            margin: 0px;
+            font-size: 40px;
+            color: aliceblue;
+        }
+        .card p{
+            padding: 0px;
+            margin: 0px;
+            color: aliceblue;
+            font-size: 15px;
+        }
+        h1 span{
+            color: orange;
+        }
+        .card input{
+            margin-left: 880px;
+            padding: 9px ;
+            margin-top: 30px;
+            background-color: orange;
+            border-radius: 0px 20px 0px 20px;
+        }
+        .card input:hover{
+            color: aliceblue;
+        }
+        #card1{
+            background-color: #0a1e2d;
+            width: 240px;
+            height: 380px;
+            padding-left: 50px;
+            border-radius: 50px;
+        }
+        #card1 img{
+            width: 170px;
+            border-radius: 50px;
+        }
+        #main{
+            display: flex;
+            column-gap: 100px;
+            margin: 50px;
+        }
+        footer{
+            background-color: #071d2e;
+            height: 330px;
+        }
+        footer{
+            column-gap: 100px;
+            padding-top: 50px;
+            display: flex;
+        }
+        #end ul li{
+            color: aliceblue;
+            padding: 3px;
+        }
+        #end li{
+            font-size: 15px;
+        }
+        .foot li{
+            list-style-type: none;
+        }
+        .foot a{
+            text-decoration: none;
+        }
+        .ft p{
+            color: aliceblue;
+            font-size: 16px;
+            padding: 10px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+<div class="navbar">
+    <div class="logo">
+        <img src="https://cdn.vectorstock.com/i/1000v/57/18/coffee-cup-logo-on-black-design-background-vector-35595718.avif" alt="">
+    </div>
+    <div class="nav">
+        <a href="#card1">Todays Special</a>
+        <a href="hame">Home</a>
+        <a href="about">About</a>
+        <a href="#end">Contact</a>
+        <a href="faq">FAQ</a>
+    </div>
+    <div class="button">
+        <button>Sing Up</button>
+    </div>
+</div>
+    <section>
+    <div class="card">
+    <img src="https://cdn1.vectorstock.com/i/1000x1000/97/50/heart-line-icon-on-black-background-flat-vector-25959750.jpg" alt="">
+    <h1 style="margin-top: 7px; margin-left: 750px;"><span> Coffee</span> - You Makes Love</h1>
+    <p  style="margin-top: 10px; margin-left: 800px;">A Lot Can Happen Over Cofee, Its Awesome!!!</p>
+    <input type="button" value="Todays Special">
+</div>
+    </section id="sec">
+    <div id="main">
+        <div id="card1">
+            <h1 style="color: violet; padding: 5px; margin-left: 0px;">Cold Coffee</h1>
+            <img src="data:image/jpeg;base64,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" alt="">
+            <br>
+            <input style="color: #ffffff; background-color: #2f87d9; margin-top: 20px; padding: 5px 18px; border-radius: 10px;" type="button" value="Order"><b style="margin-left: 70px; color: #ffffff;"> $19.00</b>
+        </div>
+        <div id="card1">
+            <h1 style="color: violet; padding: 5px; margin-left: 0px;">Hot Coffee</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi0tbyncoo5nZgaKawwgzL_NYG55wvFcnYqF-CjFSrUQ&s" alt="">
+            <br>
+            <input style="color: #ffffff; background-color: #2f87d9; margin-top: 20px; padding: 5px 18px; border-radius: 10px;" type="button" value="Order"><b style="margin-left: 70px; color: #ffffff;"> $29.00</b>
+        </div>
+        <div id="card1">
+            <h1 style="color: violet; padding: 5px; margin-left: 0px;">Black Coffee</h1>
+            <img style="height: 220px;" src="https://www.murliwalabakers.in/cdn/shop/files/BrownWhiteSimpleMinimalistBestSellerInstagramPost.webp?v=1706366249&width=1920" alt="">
+            <br>
+            <input style="color: #ffffff; background-color: #2f87d9; margin-top: 20px; padding: 5px 18px; border-radius: 10px;" type="button" value="Order"><b style="margin-left: 70px; color: #ffffff;"> $15.00</b>
+        </div>
+    </div>
+    <div id="main">
+        <div class="card1">
+            <h1 style=" color: violet; padding: 5px; margin-left: 0px;">Flat White </h1>
+            <img style="width: 170px; border-radius: 50px; height: 220px;" src="https://www.shutterstock.com/image-photo/cup-coffee-white-background-isolated-260nw-348741737.jpg" alt="">
+            <br>
+            <input style="color: #ffffff; background-color: #2f87d9; margin-top: 20px; padding: 5px 18px; border-radius: 10px;" type="button" value="Order"><b style="margin-left: 70px; color: #ffffff;"> $19.00</b>
+        </div>
+        <div id="card1">
+            <h1 style="color: violet; padding: 5px; margin-left: 0px;">Americano</h1>
+            <img style="height: 220px;" src="https://s3.amazonaws.com/order.hazelnutcoffeecompany.com.sites.diner.space/product/0a67ed196261d0/tn.600x600.png" alt="">
+            <br>
+            <input style="color: #ffffff; background-color: #2f87d9; margin-top: 20px; padding: 5px 18px; border-radius: 10px;" type="button" value="Order"><b style="margin-left: 70px; color: #ffffff;"> $29.00</b>
+        </div>
+        <div id="card1">
+            <h1 style="color: violet; padding: 5px; margin-left: 0px;">Con Panna</h1>
+            <img style="height: 220px;" src="data:image/jpeg;base64,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" alt="">
+            <br>
+            <input style="color: #ffffff; background-color: #2f87d9; margin-top: 20px; padding: 5px 18px; border-radius: 10px;" type="button" value="Order"><b style="margin-left: 70px; color: #ffffff;"> $15.00</b>
+        </div>
+    </div>
+    <footer>
+        <div id="end">
+        <ul class="foot">
+            <a href="">
+                <li style="font-size: 22px;"><b>@Shriram Mithe Cafe</b> </li>
+            </a>
+        </ul>
+    </div>
+        <div id="end">
+        <ul class="foot">
+            <a href="">
+                <li style="font-size: 20px;"><b> About us</b></li>
+                <li>Contact</li>
+                <li>Privacy</li>
+                <li>Careers</li>
+            </a>
+        </ul>
+    </div>
+        <div id="end">
+        <ul class="foot">
+            <a href="">
+                <li style="font-size: 20px;"><b> Company</b></li>
+                <li>Main comapny</li>
+                <li>Company Privacy</li>
+                <li>Branch</li>
+                <li>Adress</li>
+                <li>Shrirammithe@gmail.com</li>
+            </a>
+        </ul>
+    </div>
+        <div id="end">
+        <ul class="foot">
+            <a href="">
+                <li style="font-size: 20px;"><b>Company Adress</b> </li>
+                <li>Manaji nagar</li>
+                <li>Phase 3,</li>
+                <li>Navle Hospital,</li>
+                <li>Narhe,pune</li>
+                <li>Phone +91937075349</li>
+            </a>
+        </ul>
+    </div>
+</footer>
+<div class="ft">
+    <p>@cpoyright <b>Shrirammithecafe</b> Pvt.Ltd</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #142129;
+            height: 2000px;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .nav{
+            display: flex;
+            background-color: black;
+            padding: 15px;
+        }
+        .nav a{
+            margin-top: 10px;
+            color: azure;
+            margin-left: 40px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .nav h1{
+            color: blueviolet;
+        }
+        .card1{
+            background-color: #fbfbfb;
+            width: 250px;
+            height: 250px;
+            padding: 50px;
+            border-radius: 50px;
+            box-shadow: 8px 8px 7px #6f1a9a;
+        }
+        main{
+            margin: 50px;
+        }
+        .card1 h1{
+            margin-left: 20px;
+        }
+        .card1 img {
+            width: 100px;
+            margin-left: 60px;
+        }
+        .card1 p{
+            padding: 10px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #ff00b7;
+            margin-left: 14px;
+        }
+        .card{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <h1>IT Service</h1>
+            <a style="margin-left: 600px;" href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="">Blog</a>
+        </div>
+    </header>
+    <main>
+    <section class="card">
+            <div class="card1">
+                <img src="https://cdn-icons-png.flaticon.com/512/9321/9321345.png" alt="">
+                <h1>Manage IT Service</h1>
+                <p>Outsourcing it Manegment and maintaince including and network monitoring data backup Cybersecurity help desk support</p>
+            </div>
+            <div class="card1">
+                <img style="margin-left: 29px; width: 150px;" src="https://www.pngitem.com/pimgs/m/127-1272135_web-design-web-development-icon-hd-png-download.png" alt="">
+                <h1>Website Development</h1>
+                <p>Creating Stunning and Functional Website tailored to your business needs our some services included Web design Development and optimaization for a semless online presence</p>
+            </div>
+            <div class="card1">
+                <img src="https://p.kindpng.com/picc/s/675-6759598_logo-amazon-rekognition-clipart-png-download-transparent-png.png" alt="">
+                <h1>Cloud Computing</h1>
+                <p>Creating Stunning and Functional Website tailored to your business needs our some services included Web design Development and optimaization for a semless online presence</p>
+            </div>
+            <div class="card1">
+                <img style="width: 140px;" src="https://www.pngitem.com/pimgs/m/299-2992523_cyber-security-graphic-cyber-security-minimalist-poster-hd.png" alt="">
+                <h1>CyberCurity Soluction</h1>
+                <p>Protecting business for Cyber Threat Through mesaure like network Security Encription of training</p>
+            </div>
+            <div class="card1">
+                <img style="width: 90px;" src="https://cdn-icons-png.flaticon.com/512/2857/2857309.png" alt="">
+                <h1 style="margin-left: 40px;">Data Analytics</h1>
+                <p>Service for dada storage backup integration and analytics to drive insight and informed decision</p>
+            </div>
+            <div class="card1">
+                <img src="https://img.freepik.com/free-vector/desktop-smartphone-app-development_23-2148683810.jpg?size=338&ext=jpg&ga=GA1.1.553209589.1714089600&semt=ais" alt="">
+                <h1>Software development</h1>
+                <p>Custom software development and integration service to most specific business needs</p>
+            </div>
+    </section>
+</main>
+</body>
+</html>

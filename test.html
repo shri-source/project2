@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 2000px;
+        }
+        .nav img{
+            width: 130px;
+            margin: 20px;
+        }
+        .nav{
+            display: flex;
+        }
+        .nav a{
+            margin-top: 20px;
+            margin-left: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            color: black;
+        }
+        table, th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+            width: 900px;
+            margin: 100px;
+            text-align: left;
+            background-color: bisque;
+        }
+        table,th{
+            background-color: aqua;
+        }
+        caption{
+            border: 1px solid black;
+            margin: 10px;
+            background-color: aqua;
+            color: #090a0a;
+            padding: 6px;
+        }
+        .footer{
+            background-color: #0b1924;
+            height: 340px;
+            display: flex;
+        }
+        .foot{
+            color: aliceblue;
+        }
+        .foot1 img{
+            width: 30px;
+            border-radius: 50%;
+            margin-left: 5px;
+            margin-top: 10px;
+        }
+        .foot h1{
+            padding: 0;
+            margin: 0;
+        }
+        .foot p{
+            padding: 0;
+            margin: 0;
+        }
+        .foot{
+            margin: 20px;
+            padding: 30px;
+        }
+        .foot2 h1{
+            color: aliceblue;
+        }
+        .foot2 a{
+            color: aliceblue;
+            list-style-type: none;
+            padding: px;
+        }
+        .foot2{
+            margin-left: 50px;
+        }
+        .foot2 li{
+            padding: 5px;
+            list-style-type: none;
+        }
+        .foot2 h1{
+            margin-top: 50px;
+        }
+        .foot4 h1{
+            color: aliceblue;
+            margin-top: 50px;
+            margin-left: 70px;
+        }
+        .foot4{
+            margin-left: 100px;
+        }
+        .foot4 input{
+        padding: 8px;
+        margin-left: 70px;
+        background-color: orange;
+        border-radius: 20px 0px 20px 0px;
+        }
+        .card1{
+            background-color: #445e5e;
+            padding: 50px;
+            width: 300px;
+            border-radius: 50px;
+        }
+        .card h1{
+            margin-left: 60px;
+            color: blanchedalmond;
+        }
+        .card label{
+            color: aliceblue;
+        }
+        .card1{
+            margin: 100px;
+        }
+        .card1 input{
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <img src="https://growmoretechnoline.com/assets/img/grow1.png" alt="">
+            <a style="margin-left: 400px;" href="">Home</a>
+            <a href="">About</a>
+            <a href="">Services</a>
+            <a href="">Portfolio</a>
+            <a href="">Course</a>
+            <a href="">Contact</a>
+        </div>
+    </header>
+    <hr>
+    <table style="background-color: orange;">
+        <caption>Product List</caption>
+        <tr style="background-color: orange;">
+            <th>Product name</th>
+            <th>Price</th>
+            <th>Contity</th>
+        </tr>
+        <tr>
+            <td>Product A</td>
+            <td>$10.99</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Product B</td>
+            <td>$8.99</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Product C</td>
+            <td>$15.75</td>
+            <td>25</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <th>Student name</th>
+            <th>Math Score</th>
+            <th>Science Score</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>85</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>92</td>
+            <td>88</td>
+        </tr>
+        <tr>
+            <td>Mike Johnoson</td>
+            <td>78</td>
+            <td>85</td>
+        </tr>
+    </table>
+    <hr>
+    <div class="footer">
+        <div class="foot">
+            <h1>About Us</h1>
+            <p style="padding: 7px;">Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Cum ad facere quos ipsa nihil iure!</p>
+        <div class="foot1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOK5TJxN5NaxqnAn4C-hlGapyhyC966vN68XrCF5vfzw&s" alt="">
+            <img src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg?size=338&ext=jpg&ga=GA1.1.553209589.1714089600&semt=ais" alt="">
+            <img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-twitter-social-media-round-icon-png-image_6315985.png" alt="">
+        </div>
+        </div>
+        <div class="foot2">
+            <h1>Quick links</h1>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">Contact</a></li>
+        </div>
+        <div class="foot3">
+            <div class="foot4">
+            <h1>Contact Us</h1>
+            <br>
+            <input type="text" placeholder=" your email address ">
+            <br>
+            <br>
+            <input type="text" placeholder="Your message">
+            <br>
+            <br>
+            <input style="background-color: aqua; margin-left: 130px;" type="button" value="Send">
+        </div>
+    </div>
+    </div>
+    <div class="foot5">
+        <p style="text-align: center; margin-top: 0px; padding: 10px; background-color: #0b1924; color: aliceblue;">@2024 Your Website.com|Designed by Your Name</p>
+    </div>
+    <hr>
+    <div class="card">
+        <div class="card1">
+            <h1>Contact Us</h1>
+            <label for="">Your Name :</label>
+            <br>
+            <input style="width: 220px; padding: 7px;" type="text">
+            <br>
+            <br>
+            <label for="">Your Email :</label>
+            <br>
+            <input style="width: 220px; padding: 7px;" type="text">
+            <br>
+            <br>
+            <label for="">Subject :</label>
+            <br>
+            <input style="width: 220px; padding: 7px;" type="text">
+            <br>
+            <br>
+            <label for="">Message</label>
+            <br>
+            <textarea name="" id="" cols="30" rows="3"></textarea>
+            <br>
+           <input type="checkbox" name="" id=""><b style="color: aliceblue;">Subscriber to news Letter</b> 
+            <br>
+            <br>
+            <label for="">Gender :</label>
+            <input type="radio" name="" id=""> <b style="color: #ffffff;">Male</b> 
+            <input type="radio" name="" id=""><b style="color: #ffffff;">Female</b> 
+            <br>
+            <br>
+            <input style="border-radius: 20px; background-color: aqua; padding: 7px 100px;" type="button" value="Submit">
+        </div>
+    </div>
+    <hr>
+</body>
+</html>
